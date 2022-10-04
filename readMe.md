@@ -32,7 +32,7 @@ note scripts are listed in order of execution
 
 ## 4. Setup CodeDeploy
 
-<pre>a. Create application in CodeDeploy (name it and select EC2/On Premises)</pre>
+<pre>a. Create application in CodeDeploy (name it and select EC2/On Premises) </pre>
 <pre>b. Create deployment group (name it and give it the role of CodeDeployRole) </pre>
 <pre>c.Select In-place for Deployment Type</pre>
 <pre>d.Select Amazon EC2 Instance for Environment Configuration</pre>
