@@ -4,7 +4,7 @@
 sudo chmod -R 777 /home/ec2-user/aws-node-crud-api
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/aws-node-crud-api
+cd /home/my-api/aws-node-crud-api
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
@@ -15,4 +15,4 @@ export NVM_DIR="$HOME/.nvm"
 npm install
 
 #start our node app in the background
-nodemon app.js > app.out.log 2> app.err.log < /dev/null & 
+node app.js > app.out.log 2> app.err.log < /dev/null & 
