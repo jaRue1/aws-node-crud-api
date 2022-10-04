@@ -10,7 +10,7 @@ This is a tutorial on how to use aws service EC2 and cicd tools Code pipeline an
   - application_stop.sh
   - before_install.sh
   - application_start.sh 
-note scripts are listed in order of execution 
+note scripts are listed in order of execution  
 </pre>
 
 <pre>c. create appspec.yml file</pre>
