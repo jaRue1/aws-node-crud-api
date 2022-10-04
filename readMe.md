@@ -32,7 +32,25 @@ note scripts are listed in order of execution
 
 ## 4. Setup CodeDeploy
 
-<pre></pre>
+<pre>a. Create application in CodeDeploy (name it and select EC2/On Premises)</pre>
+<pre>b. Create deployment group (name it and give it the role of CodeDeployRole) </pre>
+<pre>c.Select In-place for Deployment Type</pre>
+<pre>d.Select Amazon EC2 Instance for Environment Configuration</pre>
+<pre>e.Select your tagged EC2 instance</pre>
+<pre>f.Leave all other configurations as default EXCEPT for the Load Balancer (disable that option)</pre>
+<pre>Create Deployment Group when all previous steps are complete</pre>
+
+## 5. Setup CodePipeline
+
+<pre>a. Name your pipeline</pre>
+<pre>b. Select your source repo as Github (Version 2)</pre>
+<pre>Create new Connect with Github and Authenticate</pre>
+<pre>Select desired repository </pre>
+<pre>Select desired branch </pre>
+<pre>Skip build stage </pre>
+<pre>For deploy stage select CodeDeploy as your provider</pre>
+<pre>Select previously created CodeDeploy Application and Deployment Group </pre>
+<pre>Once all previous step are completed create pipeline</pre>
 <pre></pre>
 <pre></pre>
 <pre></pre>
