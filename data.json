@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Vitoria Roas",
+    "classId": "1",
+    "favColor": "blue",
+    "hobby": " painting "
+  },
+  {
+    "name": "Jonah Allen",
+    "classId": "2",
+    "favColor": "blue",
+    "hobby": "Sleeping "
+  },
+  {
+    "name": "Kevin Choi",
+    "classId": "3",
+    "favColor": "blue",
+    "hobby": "reading "
+  },
+  {
+    "name": "Jarue Johnson",
+    "classId": "4",
+    "favColor": "blue",
+    "hobby": " Making Beats"
+  },
+  {
+    "name": "Nikki Allen",
+    "classId": "5",
+    "favColor": "purple",
+    "hobby": "planting"
+  },
+  {
+    "name": "Adrian Pedromo",
+    "classId": "6",
+    "favColor": "blue",
+    "hobby": "Cooking"
+  }
+]
