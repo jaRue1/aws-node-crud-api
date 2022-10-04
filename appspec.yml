@@ -2,17 +2,17 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/my-api/aws-node-crud-api
+    destination: /home/ec2-user/aws-node-crud-api
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
-      runas: Ja
+      runas: ec2-user
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
-      runas: Ja
+      runas: ec2-user
   ApplicationStart:
     - location: scripts/application_start.sh
       timeout: 300
-      runas: Ja
+      runas: ec2-user
