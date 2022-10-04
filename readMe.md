@@ -51,6 +51,3 @@ note scripts are listed in order of execution
 <pre>For deploy stage select CodeDeploy as your provider</pre>
 <pre>Select previously created CodeDeploy Application and Deployment Group </pre>
 <pre>Once all previous step are completed create pipeline</pre>
-<pre></pre>
-<pre></pre>
-<pre></pre>
