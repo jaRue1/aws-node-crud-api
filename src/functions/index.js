@@ -149,16 +149,17 @@ exports.deleteSingleCandidate = async (request, response) => {
       data: null,
     })
   } else {
-    console.log("candidate:", candidate)
 
     const indexOfItem = candidates.indexOf(candidate)
-    console.log("indexOfItem:", indexOfItem)
 
     const result = candidates.splice(indexOfItem, 1)
-    console.log("result:", result)
+    console.log("Deleted Candidate:", result)
 
+    handleWriteFile(candidates)
+    
     response.status(200).json({
       status: 200,
+      deletedCadidate: result,
       message: `Candidate with classId ${classId} as been successfully deleted`,
     })
   }
