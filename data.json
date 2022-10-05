@@ -21,7 +21,7 @@
     "name": "Jarue Johnson",
     "classId": "4",
     "favColor": "blue",
-    "hobby": " Making Beats"
+    "hobby": "Making Beats"
   },
   {
     "name": "Nikki Allen",
@@ -34,5 +34,11 @@
     "classId": "6",
     "favColor": "blue",
     "hobby": "Cooking"
+  },
+  {
+    "name": "Update your name here",
+    "classId": "7",
+    "favColor": "add your favorite color",
+    "hobby": "add a hobby"
   }
 ]
