@@ -22,7 +22,7 @@ note scripts are listed in order of execution
 
 ## 3. Setup EC2 Instance
 
-<pre>a. Select Amazon Linux 2 Kernel 5.10 AMI 2.0.20220912.1 x86_64 HVM gp2, Instance Type should be t2.micro</pre>
+<pre>a. Select Amazon Linux 2 Instance Type should be t2.micro</pre>
 <pre>b. Create a Key Pair for SSH</pre>
 <pre>c. Add security group rule to allow HTTP traffic on port 80</pre>
 <pre>d. Add security group rule to allow HTTP traffic on port 3000</pre>
