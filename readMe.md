@@ -1,6 +1,6 @@
 # Nodejs Crud Api Deployed on AWS
 
-This is a tutorial on how to use aws service EC2 and cicd tools Code pipeline and Code deploy
+This is a tutorial on how to use aws service EC2 and CICD tools Code pipeline and Code deploy
 
 ## 1. Setup Source
 
@@ -28,7 +28,7 @@ note scripts are listed in order of execution
 <pre>d. Add security group rule to allow HTTP traffic on port 3000</pre>
 <pre>e. For IAM Instance Profile select (EC2CodeDeployRole)</pre>
 <pre>f. Add code deploy agent script in user data text area (see scripts folder)</pre>
-<pre>g. Add tag to ec2 before lauch (DO NOT SKIP THIS STEP !)</pre>
+<pre>g. Add tag to ec2 before launch (DO NOT SKIP THIS STEP !)</pre>
 
 ## 4. Setup CodeDeploy
 
@@ -38,16 +38,16 @@ note scripts are listed in order of execution
 <pre>d.Select Amazon EC2 Instance for Environment Configuration</pre>
 <pre>e.Select your tagged EC2 instance</pre>
 <pre>f.Leave all other configurations as default EXCEPT for the Load Balancer (disable that option)</pre>
-<pre>Create Deployment Group when all previous steps are complete</pre>
+<pre>g. Create Deployment Group when all previous steps are complete</pre>
 
 ## 5. Setup CodePipeline
 
 <pre>a. Name your pipeline</pre>
 <pre>b. Select your source repo as Github (Version 2)</pre>
-<pre>Create new Connect with Github and Authenticate</pre>
-<pre>Select desired repository </pre>
-<pre>Select desired branch </pre>
-<pre>Skip build stage </pre>
-<pre>For deploy stage select CodeDeploy as your provider</pre>
-<pre>Select previously created CodeDeploy Application and Deployment Group </pre>
-<pre>Once all previous step are completed create pipeline</pre>
+<pre>c. Create new Connect with Github and Authenticate</pre>
+<pre>d. Select desired repository </pre>
+<pre>e. Select desired branch </pre>
+<pre>f. Skip build stage </pre>
+<pre>g. For deploy stage select CodeDeploy as your provider</pre>
+<pre>h. Select previously created CodeDeploy Application and Deployment Group </pre>
+<pre>i. Once all previous step are completed create pipeline</pre>
