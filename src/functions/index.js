@@ -4,7 +4,7 @@ const { handleWriteFile } = require("../util")
 // get
 exports.getHelloWorld = (request, response) => {
   response.send(
-    "<h1>Hello World !</h1> <h4>Message: Success on Live Start !</h4> <p>Version 1.0.0</p>"
+    "<h1>Hello World !</h1> <h4>Message: Success we did it !</h4> <p>Version 2.0.0</p>"
   )
 }
 
@@ -149,14 +149,13 @@ exports.deleteSingleCandidate = async (request, response) => {
       data: null,
     })
   } else {
-
     const indexOfItem = candidates.indexOf(candidate)
 
     const result = candidates.splice(indexOfItem, 1)
     console.log("Deleted Candidate:", result)
 
     handleWriteFile(candidates)
-    
+
     response.status(200).json({
       status: 200,
       deletedCadidate: result,
