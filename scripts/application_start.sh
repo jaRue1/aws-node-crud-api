@@ -21,4 +21,4 @@ node -v
 npm install
 
 #start our node app in the background
-node app.js > app.out.log 2> app.err.log < /dev/null & 
+node index.js > index.out.log 2> index.err.log < /dev/null & 
