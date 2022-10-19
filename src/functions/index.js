@@ -4,7 +4,7 @@ const { handleWriteFile } = require("../util")
 // get
 exports.getHelloWorld = (request, response) => {
   response.send(
-    "<h1>Hello World !</h1> <h4>Message: Success we did it !</h4> <p>Version 2.0.0</p>"
+    "<h1>Hello World Tests !</h1> <h4>Message: Success we did it !</h4> <p>Version 2.0.0</p>"
   )
 }
 
